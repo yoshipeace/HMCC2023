@@ -18,7 +18,7 @@ int main() {
         Serch.push_back(A[Rand2(R)]);
     }
     B = A;
-    cout << "üŒ`’TõƒXƒ^[ƒg"<< endl;
+    cout << "ç·šå½¢æ¢ç´¢ã‚¹ã‚¿ãƒ¼ãƒˆ"<< endl;
     auto start = system_clock::now();
     for (int i = 0; i < 100; i++) {
         for (unsigned long long j = 0; j < 100000000; j++) {
@@ -29,13 +29,13 @@ int main() {
     }
     auto end = system_clock::now();
     auto msec = duration_cast<milliseconds>(end - start).count();
-    cout <<"üŒ`’Tõ‚É‚©‚©‚Á‚½ŠÔ:" << msec << "ƒ~ƒŠ•b" << endl;
-    cout << "ƒ\[ƒgƒXƒ^[ƒg" << endl;
+    cout <<"ç·šå½¢æ¢ç´¢ã«ã‹ã‹ã£ãŸæ™‚é–“:" << msec << "ãƒŸãƒªç§’" << endl;
+    cout << "ã‚½ãƒ¼ãƒˆã‚¹ã‚¿ãƒ¼ãƒˆ" << endl;
     start = system_clock::now();
     sort(B.begin(), B.end());
     end = system_clock::now();;
     auto sms = duration_cast<milliseconds>(end - start).count();
-    cout << "“ñ•ª’TõƒXƒ^[ƒg" << endl;
+    cout << "äºŒåˆ†æ¢ç´¢ã‚¹ã‚¿ãƒ¼ãƒˆ" << endl;
     start = system_clock::now();
     for (int i = 0; i < 100; i++) {
         unsigned long long Left = 0, Right = 99999999;
@@ -52,14 +52,14 @@ int main() {
     }
     end = system_clock::now();
     msec = duration_cast<milliseconds>(end - start).count();
-    cout << "“ñ•ª’Tõ‚É‚©‚©‚Á‚½ŠÔ:" << msec << "ƒ~ƒŠ•b" << endl;
-    cout << "ƒ\[ƒg‚É‚©‚©‚Á‚½ŠÔ‚ğ“ü‚ê‚é‚Æ:" << msec + sms << "ƒ~ƒŠ•b" << endl;
-    cout << "üŒ`’Tõ‚Åo‚½“š‚¦‚Ì” ‚Ì’†‚Ì”" << endl;
+    cout << "äºŒåˆ†æ¢ç´¢ã«ã‹ã‹ã£ãŸæ™‚é–“:" << msec << "ãƒŸãƒªç§’" << endl;
+    cout << "ã‚½ãƒ¼ãƒˆã«ã‹ã‹ã£ãŸæ™‚é–“ã‚’å…¥ã‚Œã‚‹ã¨:" << msec + sms << "ãƒŸãƒªç§’" << endl;
+    cout << "ç·šå½¢æ¢ç´¢ã§å‡ºãŸç­”ãˆã®ç®±ã®ä¸­ã®æ•°" << endl;
     for (int i = 0; i < 100; i++) {
         cout << A[Ans1[i]] << " ";
     }
     cout << endl;
-    cout << "“ñ•ª’Tõ‚Åo‚½“š‚¦‚Ì” ‚Ì’†‚Ì”" << endl;
+    cout << "äºŒåˆ†æ¢ç´¢ã§å‡ºãŸç­”ãˆã®ç®±ã®ä¸­ã®æ•°" << endl;
     for (int i = 0; i < 100; i++) {
         cout << B[Ans2[i]] << " ";
     }
